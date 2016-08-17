@@ -1,0 +1,20 @@
+{
+  "module": {
+    "ecs-cluster": {
+      "aws_access_key": "c",
+      "aws_secret_key": "d",
+      "key_file": "toolsN.pem",
+      "source": "github.com/adamdecaf/ecs-cluster?ref=master"
+    },
+    "redis": {
+      "ecs_cluster_id": "${module.ecs-cluster.ecs_cluster_id}",
+      "source": "./redis"
+    }
+  },
+  "provider": {
+
+  },
+  "variable": {
+
+  }
+}

@@ -1,0 +1,7 @@
+terraform.tfvars
+*.pem
+*.pub
+terraform.tfstate
+terraform.tfstate.backup
+
+.terraform/*
